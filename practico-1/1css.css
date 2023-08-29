@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  display: flex;
+  flex: 30%;
+  justify-content: right;
+  padding: 20px;
+  background-color: antiquewhite;
+  margin: 20px;
+}
+
+.content {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+/* imagen superior logo*/
+header img {
+  width: 10%;
+  height: 10%;
+}
+
+header {
+  padding: 15x;
+  text-align: center;
+  background-image: url(img/imagepng.webp);
+  background-size: cover;
+  background-position-y: -105px;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #60c1df;
+  color: white;
+  padding: 8px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Diseño de Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+/* Estilos de la página principal */
+.main-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Estilos de las subpáginas */
+/* Agrega estilos similares para las subpáginas 1-4 */
